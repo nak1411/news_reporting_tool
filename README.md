@@ -34,3 +34,27 @@ days in which over 1% of requests led to errors.
    order by errors desc;
    ```
 
+### Output Results
+```
+POPULAR ARTICLES...
+Connected to database...
+"Candidate is jerk, alleges rival" - 338647 views
+"Bears love berries, alleges bear" - 253801 views
+"Bad things gone, say good people" - 170098 views
+"Goats eat Google's lawn" - 84906 views
+"Trouble for troubled troublemakers" - 84810 views
+"Balloon goons doomed" - 84557 views
+"There are a lot of bears" - 84504 views
+"Media obsessed with bears" - 84383 views
+
+POPULAR AUTHORS...
+Connected to database...
+"Ursula La Multa" - 507594 views
+"Rudolf von Treppenwitz" - 423457 views
+"Anonymous Contributor" - 170098 views
+"Markoff Chaney" - 84557 views
+
+ERRORS...
+Connected to database...
+"JUL 17 2016" - 2.26% errors
+```
