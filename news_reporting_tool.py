@@ -71,19 +71,3 @@ def get_request_errors():
 get_popular_articles()
 get_popular_authors()
 get_request_errors()
-
-"""create or replace view errors_per_day as
-   select date(time), count(*)
-   as errors
-   from log
-   where status = '404 NOT FOUND'
-   group by status,date
-   order by errors desc;
-"""
-
-"""create or replace view total_views as
-   select date(time), count(*) as views
-   from log
-   group by date
-   order by views desc;
-"""
